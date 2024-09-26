@@ -1,7 +1,7 @@
 ## Hi there 👋
 
-<!--
-**FeliciaAnnKelleyTaylorGV/FeliciaAnnKelleyTaylorGV** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+-
+**FeliciaAnnKelleyTaylorGV/FeliciaAnnKelleyTaylorGV** is a ✨ _{dataset}.state.period_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
@@ -14,3 +14,18 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+- module: system
+  datasets:
+    - host
+    - login
+    - package
+    - process
+    - socket
+    - user
+  period: 10s
+  state.period: 12h
+
+  socket.include_localhost: false
+
+  user.detect_password_changes: true
+  
